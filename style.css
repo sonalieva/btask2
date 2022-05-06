@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+   
+    position: absolute;
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight:800;
+    
+    font-family:  sans-serif;
+    z-index: 1;
+}
+.container a{
+
+color: white;
+
+}
+
+.container a:hover{
+    color: white;
+}
+
+.container .nav{
+   display: flex;
+   margin-right: 200px;
+}
+
+.container .nav a{
+    margin-left: 30px;
+    font-weight: 750;
+
+    transition: 0.5s;
+}
+.container .nav a:hover{
+    color:aliceblue ;
+    
+}
+
+.abouttask{
+    text-align: center;
+    background-image: url(/images/about-bg.jpg);
+    background-position: center;
+    display: flex;
+
+ height: 800px;
+ position: relative;
+
+ 
+ }
+ 
+ .about h1{
+     
+    font-family:  sans-serif;
+         font-size: 64px;
+         color: white;
+         
+         
+ }
+ 
+ .about p{
+     
+     font-size: 22px;
+     color: white;
+     font-family: sans-serif;
+ }
+ .about{
+     position: absolute;
+    
+     top: 0;
+     background-color:black;
+     opacity: 0.5;
+     width: 100%;
+     height: 600px;
+ }
+
+ .description{
+    margin-top: 50px;
+    width: 700px;
+    display: inline-block;
+   margin-left: 450px;
+    
+ }
+ .title{
+    font-family:  sans-serif;
+ 
+}
+
+.title p{
+    font-size: 20px;
+   color:grey;
+    font-weight: 200px;
+    margin-top: 40px;
+    font-family:  sans-serif;
+}
+
+ .last {
+    text-align: center;
+    margin: 30px ;
+    padding: 20px ;
+    }
+    .last  ul{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+   
+    
+    .last  ul li{
+    margin: 12px ;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    
+    padding: 12px ;
+    }
+    .last ul li:hover{
+        background-color: rgb(56, 195, 223);
+        
+    }
+    .last .ft {
+        color: rgb(142, 137, 137);
+        font-style: italic;
+    }
